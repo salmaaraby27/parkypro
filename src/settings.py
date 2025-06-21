@@ -154,15 +154,25 @@ WSGI_APPLICATION = 'src.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'smartization_pro',
+#         'USER': '405565',
+#         'PASSWORD': '123456@smart',
+#         'HOST': 'mysql-smartization.alwaysdata.net',
+#         'PORT':'3306'
+# }
+# }
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'smartization_pro',
-        'USER': '405565',
-        'PASSWORD': '123456@smart',
-        'HOST': 'mysql-smartization.alwaysdata.net',
-        'PORT':'3306'
-}
+        'NAME': 'railway',
+        'USER': 'root',
+        'PASSWORD': 'XCOSMjYkqXhbOANpuBxWsWzPxXAwpPWL',
+        'HOST': 'crossover.proxy.rlwy.net',
+        'PORT': '47206',
+    }
 }
 # settings.py
 
