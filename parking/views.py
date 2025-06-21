@@ -19,6 +19,10 @@ from rest_framework.authtoken.models import Token
 
 
 # Create your views here.
+from django.shortcuts import redirect
+
+def redirect_to_api(request):
+    return redirect('/api/')
 
 class UserViewSet(viewsets.ModelViewSet):
     queryset = User.objects.all()
